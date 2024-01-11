@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\haroon\\source\\repos\\ShowroomManagement\\BusinessLogics\\BusinessLogics.csproj": {}
+    "E:\\MyProject\\showroom-Management\\ShowroomManagement\\BusinessLogics\\BusinessLogics.csproj": {}
   },
   "projects": {
-    "C:\\Users\\haroon\\source\\repos\\ShowroomManagement\\BusinessLogics\\BusinessLogics.csproj": {
+    "E:\\MyProject\\showroom-Management\\ShowroomManagement\\BusinessLogics\\BusinessLogics.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\haroon\\source\\repos\\ShowroomManagement\\BusinessLogics\\BusinessLogics.csproj",
+        "projectUniqueName": "E:\\MyProject\\showroom-Management\\ShowroomManagement\\BusinessLogics\\BusinessLogics.csproj",
         "projectName": "BusinessLogics",
-        "projectPath": "C:\\Users\\haroon\\source\\repos\\ShowroomManagement\\BusinessLogics\\BusinessLogics.csproj",
+        "projectPath": "E:\\MyProject\\showroom-Management\\ShowroomManagement\\BusinessLogics\\BusinessLogics.csproj",
         "packagesPath": "C:\\Users\\haroon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\haroon\\source\\repos\\ShowroomManagement\\BusinessLogics\\obj\\",
+        "outputPath": "E:\\MyProject\\showroom-Management\\ShowroomManagement\\BusinessLogics\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\haroon\\AppData\\Roaming\\NuGet\\NuGet.Config",

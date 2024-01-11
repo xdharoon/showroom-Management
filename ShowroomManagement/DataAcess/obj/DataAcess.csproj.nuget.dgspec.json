@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\haroon\\source\\repos\\ShowroomManagement\\DataAcess\\DataAcess.csproj": {}
+    "E:\\MyProject\\showroom-Management\\ShowroomManagement\\DataAcess\\DataAcess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\haroon\\source\\repos\\ShowroomManagement\\DataAcess\\DataAcess.csproj": {
+    "E:\\MyProject\\showroom-Management\\ShowroomManagement\\DataAcess\\DataAcess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\haroon\\source\\repos\\ShowroomManagement\\DataAcess\\DataAcess.csproj",
+        "projectUniqueName": "E:\\MyProject\\showroom-Management\\ShowroomManagement\\DataAcess\\DataAcess.csproj",
         "projectName": "DataAcess",
-        "projectPath": "C:\\Users\\haroon\\source\\repos\\ShowroomManagement\\DataAcess\\DataAcess.csproj",
+        "projectPath": "E:\\MyProject\\showroom-Management\\ShowroomManagement\\DataAcess\\DataAcess.csproj",
         "packagesPath": "C:\\Users\\haroon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\haroon\\source\\repos\\ShowroomManagement\\DataAcess\\obj\\",
+        "outputPath": "E:\\MyProject\\showroom-Management\\ShowroomManagement\\DataAcess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\haroon\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,20 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

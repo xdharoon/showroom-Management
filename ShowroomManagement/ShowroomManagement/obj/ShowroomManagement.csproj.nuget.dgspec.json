@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\haroon\\source\\repos\\ShowroomManagement\\ShowroomManagement\\ShowroomManagement.csproj": {}
+    "E:\\MyProject\\showroom-Management\\ShowroomManagement\\ShowroomManagement\\ShowroomManagement.csproj": {}
   },
   "projects": {
-    "C:\\Users\\haroon\\source\\repos\\ShowroomManagement\\ShowroomManagement\\ShowroomManagement.csproj": {
+    "E:\\MyProject\\showroom-Management\\ShowroomManagement\\ShowroomManagement\\ShowroomManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\haroon\\source\\repos\\ShowroomManagement\\ShowroomManagement\\ShowroomManagement.csproj",
+        "projectUniqueName": "E:\\MyProject\\showroom-Management\\ShowroomManagement\\ShowroomManagement\\ShowroomManagement.csproj",
         "projectName": "ShowroomManagement",
-        "projectPath": "C:\\Users\\haroon\\source\\repos\\ShowroomManagement\\ShowroomManagement\\ShowroomManagement.csproj",
+        "projectPath": "E:\\MyProject\\showroom-Management\\ShowroomManagement\\ShowroomManagement\\ShowroomManagement.csproj",
         "packagesPath": "C:\\Users\\haroon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\haroon\\source\\repos\\ShowroomManagement\\ShowroomManagement\\obj\\",
+        "outputPath": "E:\\MyProject\\showroom-Management\\ShowroomManagement\\ShowroomManagement\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\haroon\\AppData\\Roaming\\NuGet\\NuGet.Config",
