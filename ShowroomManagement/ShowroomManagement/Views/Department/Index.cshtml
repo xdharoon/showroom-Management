@@ -1,0 +1,68 @@
+﻿
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h3> Department</h3>
+                   <button popovertarget="info"> Add </button>
+                </div>
+                <div class="col-sm-6">
+                    <ol class="breadcrumb float-sm-right">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active">Dashboard v1</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+<div class="card">
+    <div class="card-header">
+        <h3 class="card-title">Departments</h3>
+    </div>
+    <!-- /.card-header -->
+    <div class="card-body">
+        <table id="example1" class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    
+                    <th>Name</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+              
+            </tbody>
+            
+        </table>
+    </div>
+    <!-- /.card-body -->
+</div>
+
+    
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+<div id="info" popover style="width: 40rem; height: 18rem; border:1px solid grey">
+    <partial name="Create" />
+</div>
+
+
+
+
+
+@section ScriptSection
+    {
+    <script src="~/Projectfiles/Department/index.js"></script>
+    <script src="~/Projectfiles/Department/Create.js"></script>
+
+
+
+}
+
+

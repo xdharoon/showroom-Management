@@ -1,5 +1,7 @@
-using DataAcess.Data;
 using Microsoft.EntityFrameworkCore;
+using ShowroomManagementAPI.Data;
+using ShowroomManagementAPI.Model;
+using ShowroomManagementAPI.Repositoires;
 
 var builder = WebApplication.CreateBuilder(args);
 var MyAllowSpecificOrigins = "_MyAllowSpecificOrigins";
@@ -11,11 +13,16 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddDbContext<ApplicationDbContext>(m => m.UseSqlServer("deafultConnection"));
+builder.Services.AddDbContext<ApplicationDbContext>(m => m.UseSqlServer(builder.Configuration.GetConnectionString("deafultConnection")));
+
 builder.Services.AddCors(option => option.AddPolicy(MyAllowSpecificOrigins, policy =>
 {
     policy.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod();
 }));
+
+//---------------------- MODEL DEPENDENCE ----------------------
+
+builder.Services.AddScoped<IDepartment, DepartmentModel>();
 
 var app = builder.Build();
 
