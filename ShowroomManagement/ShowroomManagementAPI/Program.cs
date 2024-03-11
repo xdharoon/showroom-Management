@@ -23,6 +23,7 @@ builder.Services.AddCors(option => option.AddPolicy(MyAllowSpecificOrigins, poli
 //---------------------- MODEL DEPENDENCE ----------------------
 
 builder.Services.AddScoped<IDepartment, DepartmentModel>();
+builder.Services.AddScoped<IEmployee,EmployeeModel>();
 
 var app = builder.Build();
 
